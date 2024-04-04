@@ -5,7 +5,7 @@ import os
 class TestMain(unittest.TestCase):
     def test_return_backwards_string(self):
         random_string = "This is a random string"
-        random_string_reversed = "cipe si siht"
+        random_string_reversed = "gnirts modnar a si sihT"
         self.assertEqual(random_string_reversed,
                          return_backwards_string(random_string))
         
