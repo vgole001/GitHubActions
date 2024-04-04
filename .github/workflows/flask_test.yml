@@ -1,7 +1,7 @@
 name: Flask App Tests
 
 on:
-  pull_requests:
+  pull_request:
     branches:
       - main
 # Run the workflow specified below when pull request on main branch
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory:./app/
+        working-directory: ./app/
       
     strategy:
       matrix:
